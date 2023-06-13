@@ -1,0 +1,31 @@
+2023-06-13 02:29:32.826  INFO 62597 --- [main] tutorial.buildon.aws.o11y.HelloApp       : Starting HelloApp v1.0 using Java 17.0.7 on docker with PID 62597 (/home/sbasu/opentelmetry/target/hello-app-1.0.jar started by root in /home/sbasu/opentelmetry)
+2023-06-13 02:29:32.911  INFO 62597 --- [main] tutorial.buildon.aws.o11y.HelloApp       : No active profile set, falling back to 1 default profile: "default"
+2023-06-13 02:29:39.560  INFO 62597 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-13 02:29:39.704  INFO 62597 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13 02:29:39.708  INFO 62597 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-13 02:29:39.978  INFO 62597 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13 02:29:39.979  INFO 62597 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6407 ms
+2023-06-13 02:29:42.548  INFO 62597 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-13 02:29:42.792  INFO 62597 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-13 02:29:42.858  INFO 62597 --- [main] tutorial.buildon.aws.o11y.HelloApp       : Started HelloApp in 12.121 seconds (JVM running for 23.291)
+2023-06-13 02:30:37.357  INFO 62597 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-13 02:30:37.358  INFO 62597 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-13 02:30:37.369  INFO 62597 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-06-13 02:30:37.600  INFO 62597 --- [http-nio-8888-exec-1] t.buildon.aws.o11y.HelloAppController    : The response is valid.
+2023-06-13 02:31:05.733  INFO 62597 --- [http-nio-8888-exec-2] t.buildon.aws.o11y.HelloAppController    : The response is valid.
+2023-06-13 02:31:10.261  INFO 62597 --- [http-nio-8888-exec-3] t.buildon.aws.o11y.HelloAppController    : The response is valid.
+2023-06-13 02:49:52.895  INFO 74940 --- [main] tutorial.buildon.aws.o11y.HelloApp       : Starting HelloApp v1.0 using Java 17.0.7 on docker with PID 74940 (/home/sbasu/opentelmetry/target/hello-app-1.0.jar started by root in /home/sbasu/opentelmetry)
+2023-06-13 02:49:52.988  INFO 74940 --- [main] tutorial.buildon.aws.o11y.HelloApp       : No active profile set, falling back to 1 default profile: "default"
+2023-06-13 02:49:58.801  INFO 74940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-13 02:49:58.926  INFO 74940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-13 02:49:58.928  INFO 74940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-13 02:49:59.311  INFO 74940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-13 02:49:59.319  INFO 74940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5959 ms
+2023-06-13 02:50:01.869  INFO 74940 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-13 02:50:02.079  INFO 74940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-13 02:50:02.138  INFO 74940 --- [main] tutorial.buildon.aws.o11y.HelloApp       : Started HelloApp in 11.333 seconds (JVM running for 21.003)
+2023-06-13 02:50:21.084  INFO 74940 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-13 02:50:21.090  INFO 74940 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-13 02:50:21.096  INFO 74940 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-06-13 02:50:21.255  INFO 74940 --- [http-nio-8888-exec-1] t.buildon.aws.o11y.HelloAppController    : The response is valid.
+2023-06-13 02:50:24.202  INFO 74940 --- [http-nio-8888-exec-2] t.buildon.aws.o11y.HelloAppController    : The response is valid.

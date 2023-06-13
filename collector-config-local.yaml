@@ -1,0 +1,51 @@
+receivers:
+  otlp:
+    protocols:
+      http:
+      grpc:
+        endpoint: 0.0.0.0:5555
+  hostmetrics:
+    collection_interval: 10s
+    scrapers:
+      paging:
+        metrics:
+          system.paging.utilization:
+            enabled: true
+      cpu:
+        metrics:
+          system.cpu.utilization:
+            enabled: true
+      disk:
+      filesystem:
+        metrics:
+          system.filesystem.utilization:
+            enabled: true
+      load:
+      memory:
+      network:
+      processes:
+
+processors:
+  batch:
+    timeout: 10s
+exporters:
+  logging:
+    loglevel: debug
+  otlp:
+    endpoint: tempo:4317
+    tls:
+      insecure: true
+  datadog:
+    api:
+      key: 1be02a1ab9be1ff3265f9101570b54cf
+service:
+  pipelines:
+    metrics:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [logging, otlp, datadog]
+    traces:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [logging, otlp, datadog]
+
